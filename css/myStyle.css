@@ -8,8 +8,16 @@
       url('../fonts/abolition-regular-webfont.ttf') format('truetype');
 }
 
-*{
-	font-family: 'Abolition Regular', Helvetica, Arial, sans-serif
+.main-title,
+.secondary-title,
+p,
+legend,
+label,
+footer,
+#button,
+
+{
+	font-family: 'Abolition Regular', Helvetica, Arial, sans-serif;
 	font-weight: lighter;
 }
 
@@ -68,6 +76,16 @@ p.intro{
 
 fieldset{
 	border: 0;
+  margin-top: 30px;
+}
+
+legend{
+  font-size: 25px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+#zip{
+  display:block;
 }
 
 .main-section{
@@ -92,7 +110,7 @@ fieldset{
 
 .newsletter-section label{
 	color: #606060;
-	font-weight:50;
+	font-weight:100;
 	display: inline-block;
 	margin-bottom: .6em;
 }
@@ -202,6 +220,7 @@ footer{
     }
   #zip{
     max-width: 35%;
+    display: inline-block;
   }
   form label {
     width: 25%;
